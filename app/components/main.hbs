@@ -2,56 +2,30 @@
   <div class="container">
     <div class="row animate-box">
       <div class="col-md-12 section-heading text-center">
-        <h2>See More</h2>
+        <h2>Explore Deeper</h2>
         <div class="row">
           <div class="col-md-6 col-md-offset-3 subtext">
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove. </p>
+            <p>Delve into the intricate layers of cybersecurity with our in-depth analysis and commentary. Discover the latest trends, tools, and tactics that are shaping the future of digital protection. </p>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="post-entry">
-        <div class="col-md-6">
-          <div class="post animate-box">
-            <a href="#"><img src="images/work-2.jpg" alt="Product"></a>
-            <div>
-              <h3><a href="#">Camera Lenses</a></h3>
-              <p>Far far away, behind the word, far from the countries Vokalia</p>
-              <span><a href="#">Learn More...</a></span>
+        {{#each this.sites as |site|}}
+          <div class="col-md-6">
+            <div class="post animate-box">
+              <LinkTo @route={{site.link}}><img src="images/work-1.jpg" alt="Product"></LinkTo>  
+              <div>
+                {{!-- template-lint-disable link-href-attributes --}}
+                <h3><a><LinkTo @route={{site.link}}>{{site.title}}</LinkTo></a></h3>
+                <p>{{site.desc}}</p>
+                {{!-- template-lint-disable no-invalid-link-text --}}
+                <span><LinkTo @route={{site.link}}></LinkTo></span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="post animate-box">
-            <a href="#"><img src="images/work-1.jpg" alt="Product"></a>
-            <div>
-              <h3><a href="#">Camera Lenses</a></h3>
-              <p>Far far away, behind the word, far from the countries Vokalia</p>
-              <span><a href="#">Learn More...</a></span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="post animate-box">
-            <a href="#"><img src="images/work-2.jpg" alt="Product"></a>
-            <div>
-              <h3><a href="#">Camera Lenses</a></h3>
-              <p>Far far away, behind the word, far from the countries Vokalia</p>
-              <span><a href="#">Learn More...</a></span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="post animate-box">
-            <a href="#"><img src="images/work-1.jpg" alt="Product"></a>
-            <div>
-              <h3><a href="#">Camera Lenses</a></h3>
-              <p>Far far away, behind the word, far from the countries Vokalia</p>
-              <span><a href="#">Learn More...</a></span>
-            </div>
-          </div>
-        </div>
+        {{/each}}
       </div>
     </div>
   </div>
@@ -60,33 +34,17 @@
 <section id="services">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 animate-box">
-        <div class="service">
-          <div class="service-icon">
-            <i class="icon-command"></i>
+      {{#each this.cards as |card|}}
+        <div class="col-md-4 animate-box">
+          <div class="service">
+            <div class="service-icon">
+              <i class="icon-command"></i>
+            </div>
+            <h2>{{card.title}}</h2>	
+            <p>{{card.desc}}</p>
           </div>
-          <h2>Brand Identity</h2>	
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
         </div>
-      </div>
-      <div class="col-md-4 animate-box">
-        <div class="service">
-          <div class="service-icon">
-            <i class="icon-drop2"></i>
-          </div>
-          <h2>Web Design &amp; UI</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-        </div>
-      </div>
-      <div class="col-md-4 animate-box">
-        <div class="service">
-          <div class="service-icon">
-            <i class="icon-anchor"></i>
-          </div>
-          <h2>Development &amp; CMS</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-        </div>
-      </div>
+      {{/each}}
     </div>
   </div>
 </section>

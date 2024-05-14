@@ -1,11 +1,11 @@
 import { module, test } from 'qunit';
 import { setupTest } from 'cipher-voyage/tests/helpers';
 
-module('Unit | Route | quest', function (hooks) {
+module('Unit | Route | quests', function (hooks) {
   setupTest(hooks);
 
   test('it exists', function (assert) {
-    let route = this.owner.lookup('route:quest');
+    let route = this.owner.lookup('route:quests');
     assert.ok(route);
   });
 });

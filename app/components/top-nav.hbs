@@ -12,32 +12,22 @@
         </div>
         <div class="col-md-6">
           <ul class="nav text-center">
-            {{!-- template-lint-disable link-href-attributes --}}
-            <li><a><LinkTo @route="home">Home</LinkTo></a></li>
-            <li><a><LinkTo @route="blog">Blog</LinkTo></a></li>
-            <li><a><LinkTo @route="quest">Quest</LinkTo></a></li>
-            <li><a><LinkTo @route="about">About</LinkTo></a></li>
+            {{#each this.urls as |url|}}
+              {{!-- template-lint-disable link-href-attributes --}}
+              <li><a><LinkTo @route={{url.link}}>{{url.label}}</LinkTo></a></li>  
+            {{/each}}
           </ul>
         </div>
         <div class="col-md-3">
           <ul class="social">
-            <li>
-              <a href="https://www.linkedin.com/in/vigneshwar-sundararajan-07a2a5185/" target="_blank" rel="noopener noreferrer">
-                <img class="link-icon" src="images/linkedin.ico" alt="LinkedIn">
-              </a>
-              {{!-- <i class="icon-twitter"></i> --}}
-            </li>
-            <li>
-              <a href="https://github.com/vickie-ks" target="_blank" rel="noopener noreferrer">
-
-                <img class="link-icon" src="images/github.ico" alt="LinkedIn">
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/bubbloo2" target="_blank" rel="noopener noreferrer">
-                <img class="link-icon" src="images/twitter.ico" alt="LinkedIn">
-              </a>
-            </li>
+            {{#each this.socs as |soc|}}
+              <li>
+                <a href={{soc.link}} target="_blank" rel="noopener noreferrer">
+                  <img class="link-icon" src={{soc.imgSrc}} alt="LinkedIn">
+                </a>
+                {{!-- <i class="icon-twitter"></i> --}}
+              </li>
+            {{/each}} 
           </ul>
         </div>
       </div>

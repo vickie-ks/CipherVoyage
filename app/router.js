@@ -10,6 +10,6 @@ Router.map(function () {
   this.route('home');
   this.route('about');
   this.route('contact');
-  this.route('quest');
-  this.route('blog');
+  this.route('blogs');
+  this.route('quests');
 });
