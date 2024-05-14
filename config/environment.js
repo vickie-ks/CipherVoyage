@@ -4,8 +4,8 @@ module.exports = function (environment) {
   const ENV = {
     modulePrefix: 'cipher-voyage',
     environment,
-    rootURL: '/',
-    locationType: 'history',
+    rootURL: '/CipherVoyage/',
+    locationType: 'hash',
     EmberENV: {
       EXTEND_PROTOTYPES: false,
       FEATURES: {
