@@ -1,0 +1,46 @@
+<header id="fh5co-header">
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="row flex--center-align">
+        <div class="col-md-3">
+          <div class="fh5co-navbar-brand">
+            {{!-- template-lint-disable require-valid-alt-text --}}
+            <a class="fh5co-logo" href="index.html">
+              <img class="logo-icon" src="images/brand-nav.jpeg" alt="Closest Logo">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <ul class="nav text-center">
+            {{!-- template-lint-disable link-href-attributes --}}
+            <li><a><LinkTo @route="home">Home</LinkTo></a></li>
+            <li><a><LinkTo @route="blog">Blog</LinkTo></a></li>
+            <li><a><LinkTo @route="quest">Quest</LinkTo></a></li>
+            <li><a><LinkTo @route="about">About</LinkTo></a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="social">
+            <li>
+              <a href="https://www.linkedin.com/in/vigneshwar-sundararajan-07a2a5185/" target="_blank" rel="noopener noreferrer">
+                <img class="link-icon" src="images/linkedin.ico" alt="LinkedIn">
+              </a>
+              {{!-- <i class="icon-twitter"></i> --}}
+            </li>
+            <li>
+              <a href="https://github.com/vickie-ks" target="_blank" rel="noopener noreferrer">
+
+                <img class="link-icon" src="images/github.ico" alt="LinkedIn">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/bubbloo2" target="_blank" rel="noopener noreferrer">
+                <img class="link-icon" src="images/twitter.ico" alt="LinkedIn">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
