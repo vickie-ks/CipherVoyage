@@ -15,13 +15,13 @@
         {{#each this.sites as |site|}}
           <div class="col-md-6">
             <div class="post animate-box">
-              <LinkTo @route={{site.link}}><img src="images/work-1.jpg" alt="Product"></LinkTo>  
+              <LinkTo @route={{site.link}}><img src={{site.img}} alt="Product"></LinkTo>  
               <div>
                 {{!-- template-lint-disable link-href-attributes --}}
                 <h3><a><LinkTo @route={{site.link}}>{{site.title}}</LinkTo></a></h3>
                 <p>{{site.desc}}</p>
                 {{!-- template-lint-disable no-invalid-link-text --}}
-                <span><LinkTo @route={{site.link}}></LinkTo></span>
+                <span><LinkTo @route={{site.link}}>{{site.seeMore}}</LinkTo></span>
               </div>
             </div>
           </div>

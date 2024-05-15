@@ -23,7 +23,8 @@
             {{#each this.socs as |soc|}}
               <li>
                 <a href={{soc.link}} target="_blank" rel="noopener noreferrer">
-                  <img class="link-icon" src={{soc.imgSrc}} alt="LinkedIn">
+                  <i class={{soc.class}}></i>
+                  {{!-- <img class="link-icon" src={{soc.imgSrc}} alt="LinkedIn"> --}}
                 </a>
                 {{!-- <i class="icon-twitter"></i> --}}
               </li>

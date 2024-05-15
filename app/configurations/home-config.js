@@ -5,24 +5,28 @@ export let HOME_CONFIG = {
       desc: 'Explore essential cybersecurity concepts, tools, and expert advice.',
       seeMore: 'Read Our Blogs...',
       link: 'blogs',
+      img: 'images/blog.png'
     },
     {
-      title: 'About Us',
-      desc: 'Discover our mission to make cybersecurity accessible for all.',
+      title: 'About Me',
+      desc: 'Discover my mission to make cybersecurity accessible for all.',
       seeMore: 'Discover More...',
       link: 'about',
+      img: 'images/about.png'
     },
     {
       title: 'Curious Explorations',
       desc: 'Discover my musings on extraterrestrial life,  and more.',
       seeMore: 'Explore My Interests...',
       link: 'quests',
+      img: 'images/quest.png'
     },
     {
       title: 'Innovative Research',
       desc: "Explore research shaping cybersecurity's future..",
       seeMore: 'Start Your Quest',
       link: 'blogs',
+      img: 'images/research.png'
     },
   ],
   CARDS: [
