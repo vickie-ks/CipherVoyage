@@ -272,6 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 #main {
+  display: flex;
 	padding-bottom: 7em;
 	@media screen and (max-width: $screen-sm) {
 		padding-bottom: 3em;
@@ -580,3 +581,15 @@ footer{
 // 		opacity: 0;
 // 	}
 // }
+
+.avatar {
+  top: 20px;
+  width: 250px;
+  height: 250px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  margin-right: 20px;
+  position: sticky;
+  vertical-align: middle;
+  position: -webkit-sticky;
+}
