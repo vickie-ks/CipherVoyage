@@ -1,0 +1,38 @@
+.article-item {
+  display: flex;
+  align-items: flex-start; /* Adjust alignment if needed */
+  margin-bottom: 20px;
+}
+.article-item img {
+  width: 150px; /* Adjust size as needed */
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.article-item h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+.article-item p {
+  color: #666;
+  margin-bottom: 0.5em;
+}
+.article-date {
+  font-size: 0.85em;
+  color: #999;
+}
+.article-main-heading {
+  margin-bottom: 30px;
+}
+.empty-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;  /* Adjust height as necessary */
+  font-size: 20px;
+  color: #666;
+}
+.article-img {
+  max-height: 500px;
+  float: right;
+}

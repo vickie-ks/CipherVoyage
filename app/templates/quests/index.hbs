@@ -1,0 +1,10 @@
+<h1 class="article-main-heading">Quest Articles</h1>
+{{#if this.model.length}}
+  <ul>
+    {{#each this.model as |quest|}}
+      <ArticleItem @article={{quest}} @transitionTo="quests.quest" />
+    {{/each}}
+  </ul>
+{{else}}
+  <div class="empty-message">No articles are available right now.</div>
+{{/if}}

@@ -4,7 +4,7 @@ export let HOME_CONFIG = {
       title: 'Cutting-Edge Insights',
       desc: 'Explore essential cybersecurity concepts, tools, and expert advice.',
       seeMore: 'Read Our Blogs...',
-      link: 'blogs',
+      link: 'blogs.index',
       img: 'images/blog.png'
     },
     {
@@ -25,7 +25,7 @@ export let HOME_CONFIG = {
       title: 'Innovative Research',
       desc: "Explore research shaping cybersecurity's future..",
       seeMore: 'Start Your Quest',
-      link: 'blogs',
+      link: 'blogs.index',
       img: 'images/research.png'
     },
   ],

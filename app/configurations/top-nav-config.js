@@ -5,7 +5,7 @@ export let TOPNAV_CONFIG = {
       label: 'Home',
     },
     {
-      link: 'blogs',
+      link: 'blogs.index',
       label: 'Blogs',
     },
     {

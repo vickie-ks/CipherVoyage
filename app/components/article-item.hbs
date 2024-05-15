@@ -1,0 +1,12 @@
+<li class="article-item">
+  {{!-- template-lint-disable no-invalid-interactive --}}
+  <div {{on "click" (fn this.goToArticle @article)}}>
+    <div>
+      <h2>{{@article.title}}</h2>
+      <p>{{@article.description}}</p>
+      <div class="article-date">
+        {{format-date @article.date}}
+      </div>
+    </div>
+  </div>
+</li>
