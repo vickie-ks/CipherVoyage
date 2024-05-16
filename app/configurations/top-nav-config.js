@@ -21,17 +21,17 @@ export let TOPNAV_CONFIG = {
     {
       link: 'https://www.linkedin.com/in/vigneshwar-sundararajan-07a2a5185/',
       imgSrc: 'images/linkedin.jpeg',
-      class: 'fab fa-linkedin-in'
+      class: 'fab fa-linkedin-in',
     },
     {
       link: 'https://github.com/vickie-ks',
       imgSrc: 'images/github.png',
-      class: 'fab fa-github'
+      class: 'fab fa-github',
     },
     {
       link: 'https://twitter.com/bubbloo2',
       imgSrc: 'images/x.jpeg',
-      class: 'fab fa-twitter'
+      class: 'fab fa-twitter',
     },
   ],
 };

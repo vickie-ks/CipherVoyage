@@ -23,6 +23,15 @@ module.exports = {
     browser: true,
   },
   rules: {},
+  ignorePatterns: [
+    '!app/**',
+    'public/**',
+    'node_modules/**',
+    'dist/**',
+    'tmp/**',
+    '!tests/**',
+    '.eslintcache',
+  ],
   overrides: [
     // node files
     {
