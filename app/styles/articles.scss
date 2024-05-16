@@ -1,7 +1,21 @@
+@import "colors";
+
 .article-item {
   display: flex;
+  cursor: pointer;
   align-items: flex-start; /* Adjust alignment if needed */
   margin-bottom: 20px;
+  @include transition(.5s);
+  &:hover{
+		text-decoration: underline !important;
+		color: $brand-primary !important;
+	}
+
+
+  border: 1px solid $article-outline; // This sets a light grey border
+  padding: 10px; // Optional, to add some space inside the border
+  margin: 20px; // Optional, to add some space outside the border
+  box-shadow: 0px 0px 5px $article-outline;
 }
 .article-item img {
   width: 150px; /* Adjust size as needed */
@@ -20,8 +34,17 @@
 .article-date {
   font-size: 0.85em;
   color: #999;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 15px;
+  /* float: right; */
+  /* background-color: #f0f0f0; */
+  border: 1px solid $article-outline;
 }
 .article-main-heading {
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
 }
 .empty-message {
@@ -33,6 +56,15 @@
   color: #666;
 }
 .article-img {
-  max-height: 500px;
+  padding: 50px;
+  height: 500px;
+  width: 500px;
   float: right;
+}
+.article-desc {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
 }

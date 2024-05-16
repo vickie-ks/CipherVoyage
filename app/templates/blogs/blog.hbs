@@ -1,6 +1,7 @@
 <article>
   <img class="article-img" src="{{this.model.imageUrl}}" alt="{{this.model.title}}" />
   <h1>{{this.model.title}}</h1>
-  <p>{{this.model.description}}</p>
-  <small>Published on: {{this.model.date}}</small>
+  {{!-- template-lint-disable no-triple-curlies --}}
+  <p>{{safe-html this.model.description}}</p>
+  <small>Published on: {{format-date this.model.date}}</small>
 </article>

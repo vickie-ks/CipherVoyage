@@ -1,25 +1,4 @@
-$font-primary: 'Roboto Slab', Arial, sans-serif;
-$font-secondary: 'Roboto', Arial, sans-serif;
-// Overrides
-$grid-gutter-width: 40px !default; 
-$border-radius-base:  4px !default;
-$padding-base-vertical: 14px !default;
-
-$brand-primary: #52d3aa !default;
-$brand-secondary: #1fb5f6 !default; 
-
-$brand-white: #fff;
-$brand-black: #000;
-$brand-lighter: #848484;
-$brand-selection-color: #52d3aa;
-$brand-body-color: #fcfcfc;
-$brand-body-bg: #eeeff0;
-
-
-$input-border-focus: $brand-primary !default;
-$form-group-margin-bottom: 30px !default;
-
-
+@import "colors";
 
 // Mixin
 @mixin transition($transition) {
