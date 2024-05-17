@@ -5,7 +5,14 @@ export default class ApplicationRoute extends Route {
   @service router;
 
   beforeModel() {
-    // Redirects to the 'home' route
-    this.router.transitionTo('home');
+    const currentUrl = window.location.href;
+    if (
+      !currentUrl.includes('home') &&
+      !currentUrl.includes('blogs') &&
+      !currentUrl.includes('quests') &&
+      !currentUrl.includes('about')
+    ) {
+      this.router.transitionTo('home');
+    }
   }
 }
