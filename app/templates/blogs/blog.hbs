@@ -2,10 +2,13 @@
   <div class="container">
     <div class="col-md-10 col-md-offset-1 animate-box">
       <h1 class="article-title">{{this.model.title}}</h1>
-      <small class="article-title">By <b>vickie-ks</b> |  {{format-date this.model.date}}</small>
+      <small class="article-title">By <b>vickie-ks</b> | {{format-date this.model.date}}</small>
       <div class="article-content">
-        <img class="article-img" src="{{this.model.imageUrl}}" alt="{{this.model.title}}" />
-        {{!-- template-lint-disable no-triple-curlies --}}
+        <img
+          class="article-img"
+          src="{{this.model.imageUrl}}"
+          alt="{{this.model.title}}"
+        />
         <p class="article-main-desc">{{safe-html this.model.description}}</p>
       </div>
     </div>

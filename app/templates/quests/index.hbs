@@ -1,11 +1,9 @@
 <h2 class="flex-center">Curious Explorations</h2>
-<p class="flex-center m-30">Discover my musings on extraterrestrial life, and more.</p>
+<p class="flex-center article-sub-desc">Discover my musings on extraterrestrial life, and more.</p>
 {{#if this.model.length}}
-  <ul>
-    {{#each this.model as |quest|}}
-      <ArticleItem @article={{quest}} @transitionTo="quests.quest" />
-    {{/each}}
-  </ul>
+  {{#each this.model as |quest|}}
+    <ArticleItem @article={{quest}} @transitionTo="quests.quest" />
+  {{/each}}
 {{else}}
   <div class="empty-message">No articles are available right now.</div>
 {{/if}}
