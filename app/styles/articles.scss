@@ -112,12 +112,20 @@ a {
   /* Arrow pointing to the icon */
   content: "";
   position: absolute;
-  top: 100%;
-  left: 50%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
   border-color: black transparent transparent transparent;
+}
+.tooltip[data-position="top"]::after {
+  top: 100%;
+  left: 50%;
+  border-color: black transparent transparent transparent;
+}
+.tooltip[data-position="bottom"]::after {
+  bottom: 100%;
+  left: 50%;
+  border-color: transparent transparent black transparent;
 }
 a:hover .tooltip {
   visibility: visible;

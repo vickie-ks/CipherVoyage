@@ -1,7 +1,10 @@
 <div>
   {{this.activeCount}}
   {{! template-lint-disable link-href-attributes }}
-  <a title="Current viewers on the site"><i class="fas fa-eye"></i>
-    <span class="tooltip">Current viewers on the site</span>
+  <a>
+    <i class="fas fa-eye"></i>
+    <span class="tooltip" {{position-tooltip}}>
+      Current viewers on the site
+    </span>
   </a>
 </div>
