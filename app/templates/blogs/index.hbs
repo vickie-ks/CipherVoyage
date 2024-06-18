@@ -1,9 +1,31 @@
-<h2 class="flex-center">My Thoughts on Security</h2>
-<p class="flex-center article-sub-desc">Explore essential cybersecurity concepts, tools, and expert advice.</p>
-{{#if this.model.length}}
-  {{#each this.model as |blog|}}
-    <ArticleItem @article={{blog}} @transitionTo="blogs.blog" />
-  {{/each}}
-{{else}}
-  <div class="empty-message">No articles are available right now.</div>
-{{/if}}
+<div class="container mt-4">
+  <h2>My Thoughts on Security</h2>
+  <p class="lead">
+    Explore essential cybersecurity concepts, tools, and expert advice.
+  </p>
+  {{#if this.model.length}}
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-4 g-4">
+      {{#each this.model as |blog|}}
+        <ArticleItem @article={{blog}} @transitionTo="blogs.blog" />
+      {{/each}}
+    </div>
+  {{else}}
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">
+              No Articles Available
+            </h5>
+            <p class="card-text height">
+              We're sorry, but there are currently no articles to display. Please check again soon.
+            </p>
+          </div>
+          <div class="card-footer">
+            Thank you for your patience | Contact Support for assistance
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/if}}
+</div>

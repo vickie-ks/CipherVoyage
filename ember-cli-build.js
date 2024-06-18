@@ -7,8 +7,11 @@ module.exports = function (defaults) {
     locationType: 'history',
     fingerprint: {
       enabled: true,
+      exclude: ['images/**'],
     },
   });
+
+  app.import('node_modules/bootstrap/dist/css/bootstrap.css');
 
   return app.toTree();
 };

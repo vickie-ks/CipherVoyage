@@ -1,12 +1,18 @@
-<div class="article-item">
-  {{!-- template-lint-disable no-invalid-interactive --}}
-  <div {{on "click" (fn this.goToArticle @article)}}>
-    <div>
-      <h2>{{@article.title}}</h2>
-      <p class="article-desc">{{safe-html @article.description}}</p>
-      <div class="article-date">
-        {{format-date @article.date}}
-      </div>
+<div class="col">
+  <div class="card h-100">
+    <div class="card-body">
+      <h5 class="card-title">
+        {{@article.title}}
+      </h5>
+      <p class="card-text height">
+        {{@article.description}}
+        <BsPopover @triggerEvents="hover" >
+          {{@article.description}}
+        </BsPopover>
+      </p>
+    </div>
+    <div class="card-footer">
+      <a class="card-link" href="#" {{on "click" (fn this.goToArticle @article)}}>Read More.</a>
     </div>
   </div>
 </div>
