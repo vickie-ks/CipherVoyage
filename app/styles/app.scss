@@ -1,10 +1,11 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
-html, body {
-  width:100%;
-  margin:0;
-  height:100%;
-  font-family: 'Roboto', sans-serif;
+html,
+body {
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
 
   .top-nav--container {
     display: flex;
@@ -13,13 +14,13 @@ html, body {
     flex: auto;
     padding-right: 5.5em;
   }
-  
+
   .card-text {
     &.center {
       text-align-last: center;
       text-align: -webkit-center;
     }
-  
+
     &.height {
       display: -webkit-box;
       -webkit-box-orient: vertical;
@@ -36,17 +37,17 @@ html, body {
     height: 300px;
     border-radius: 1.375rem;
   }
-  
 
-  .container  a:not(.btn) {
+  .container a:not(.btn) {
     @extend .link-success;
   }
-  
+
   .dropdown-item {
     &:hover {
       @extend .bg-success-subtle;
     }
-    &.active, &:active {
+    &.active,
+    &:active {
       @extend .bg-success;
     }
   }

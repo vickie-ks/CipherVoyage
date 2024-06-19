@@ -29,18 +29,4 @@ export let HOME_CONFIG = {
       img: 'images/about.png',
     },
   ],
-  CARDS: [
-    {
-      title: 'Zero Trust',
-      desc: 'Implementing strict access controls and continuous verification strategies to ensure that security does not rely on perimeter defense alone.',
-    },
-    {
-      title: 'Threat Intelligence',
-      desc: 'Harnessing advanced data analytics to predict, identify, and mitigate emerging cyber threats effectively and efficiently in real-time.',
-    },
-    {
-      title: 'Quantum Resilience',
-      desc: 'Leveraging quantum computing to create unbreakable encryption methods, enhancing cybersecurity defenses against even the most sophisticated attacks.',
-    },
-  ],
 };
