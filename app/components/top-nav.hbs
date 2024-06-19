@@ -1,5 +1,4 @@
 <BsNavbar @type="dark" @backgroundColor="dark" as |navbar|>
-  <div class="top-nav--container">
   <LinkTo @route="home" class="navbar-brand">CipherVoyage</LinkTo>
   <navbar.toggle />
   <navbar.content>
@@ -18,19 +17,17 @@
         </dd.menu>
       </nav.dropdown>
     </navbar.nav>
-  </navbar.content>
 
-  
-  <ul class="nav navbar-nav">
-    {{#each this.socs as |soc|}}
-      <li>
-        <a class="nav-link" href={{soc.link}} target="_blank" rel="noopener noreferrer">
-          <i class={{soc.class}}></i>
-          {{!-- <img class="link-icon" src={{soc.imgSrc}} alt="LinkedIn"> --}}
-        </a>
-        {{!-- <i class="icon-twitter"></i> --}}
-      </li>
-    {{/each}}
-  </ul>
-  </div>
+    <ul class="nav navbar-nav">
+      {{#each this.socs as |soc|}}
+        <li>
+          <a class="nav-link" href={{soc.link}} target="_blank" rel="noopener noreferrer">
+            <i class={{soc.class}}></i>
+            {{!-- <img class="link-icon" src={{soc.imgSrc}} alt="LinkedIn"> --}}
+          </a>
+          {{!-- <i class="icon-twitter"></i> --}}
+        </li>
+      {{/each}}
+    </ul>
+  </navbar.content>
 </BsNavbar>

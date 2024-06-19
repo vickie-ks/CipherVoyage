@@ -7,14 +7,6 @@ body {
   height: 100%;
   font-family: "Roboto", sans-serif;
 
-  .top-nav--container {
-    display: flex;
-    flex-direction: row;
-    padding-left: 5.5em;
-    flex: auto;
-    padding-right: 5.5em;
-  }
-
   .card-text {
     &.center {
       text-align-last: center;
@@ -38,7 +30,7 @@ body {
     border-radius: 1.375rem;
   }
 
-  .container a:not(.btn) {
+  #main-content a:not(.btn) {
     @extend .link-success;
   }
 
@@ -49,6 +41,15 @@ body {
     &.active,
     &:active {
       @extend .bg-success;
+    }
+  }
+
+  .navbar {
+    .container-fluid {
+      @extend .container;
+    }
+    .collapse {
+      @extend .justify-content-between;
     }
   }
 }
