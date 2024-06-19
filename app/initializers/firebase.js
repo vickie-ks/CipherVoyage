@@ -13,9 +13,11 @@ export function initialize() {
     measurementId: 'G-V3JAXX0B29',
   };
   const app = initializeApp(firebaseConfig);
-  const database = getDatabase(app);
+  return getDatabase(app);
 }
 
+const database = initialize();
 export default {
   initialize,
+  database,
 };

@@ -6,7 +6,8 @@ export default class ArticleItemComponent extends Component {
   @service router;
 
   @action
-  goToArticle(articles) {
+  goToArticle(articles, event) {
+    event.preventDefault();
     this.router.transitionTo(this.args.transitionTo, articles.id);
   }
 }

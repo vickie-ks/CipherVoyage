@@ -1,2 +1,62 @@
-<TitleCard />
-<Main />
+<div class="row mb-4">
+  <div class="col-sm-9">
+    <div class="bg-light rounded h-100 p-5 fs-5">
+      <h1>A Mystic Voyage into Digital Shadows</h1>
+      <p>
+        Embark on a journey through the hidden world of cybersecurity,
+        uncovering secrets and insights. Join us for powerful revelations and
+        cutting-edge discoveries.
+      </p>
+    </div>
+  </div>
+  <div class="col-sm-3 d-none d-sm-block">
+    <div class="card h-100">
+      <div class="card-body">
+        <div class="card-body">
+          <a href="https://github.com/vickie-ks"><img
+              src="https://avatars.githubusercontent.com/u/169089145?v=4"
+              class="card-img-top"
+              alt="vickie-ks"
+            /></a>
+
+          <div class="p-1"></div>
+          <p class="card-text center">
+            Author:
+            <a
+              href="https://github.com/vickie-ks"
+              target="_blank"
+              rel="noopener noreferrer"
+            >vickie-ks</a>
+            <br />
+            <i class="fab fa-twitter"></i>
+            <a
+              href="https://twitter.com/bubbloo2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >@bubbloo2</a>
+          </p>
+
+          <p class="card-text center">© 2024 | vickie-ks. Code released under
+            <a href="/LICENSE.md">MIT license</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+  {{#each this.model as |site|}}
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h4 class="card-title">{{site.title}}</h4>
+          <p class="card-text">{{site.desc}}</p>
+        </div>
+        <div class="card-footer">
+          <LinkTo class="ember-view btn btn-dark" @route={{site.link}}>{{site.seeMore}}</LinkTo>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>

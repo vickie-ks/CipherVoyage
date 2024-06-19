@@ -1,37 +1,36 @@
-<header id="fh5co-header">
-  <div class="container">
-    <nav class="navbar navbar-default">
-      <div class="row flex--center-align">
-        <div class="col-md-3">
-          <div class="fh5co-navbar-brand">
-            {{!-- template-lint-disable require-valid-alt-text --}}
-            <a class="fh5co-logo" href="https://github.com/vickie-ks" target="_blank" rel="noopener noreferrer">
-              <img class="logo-icon" src="images/brand-nav.jpeg" alt="Closest Logo">
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <ul class="nav text-center">
-            {{#each this.urls as |url|}}
-              {{!-- template-lint-disable link-href-attributes --}}
-              <li><a><LinkTo @route={{url.link}}>{{url.label}}</LinkTo></a></li>  
-            {{/each}}
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <ul class="social">
-            {{#each this.socs as |soc|}}
-              <li>
-                <a href={{soc.link}} target="_blank" rel="noopener noreferrer">
-                  <i class={{soc.class}}></i>
-                  {{!-- <img class="link-icon" src={{soc.imgSrc}} alt="LinkedIn"> --}}
-                </a>
-                {{!-- <i class="icon-twitter"></i> --}}
-              </li>
-            {{/each}} 
-          </ul>
-        </div>
-      </div>
-    </nav>
+<BsNavbar @type="dark" @backgroundColor="dark" as |navbar|>
+  <div class="top-nav--container">
+  <LinkTo @route="home" class="navbar-brand">CipherVoyage</LinkTo>
+  <navbar.toggle />
+  <navbar.content>
+    <navbar.nav as |nav|>
+      {{#each this.urls as |url|}}
+        <nav.item>
+          <nav.link-to @route={{url.link}}>{{url.label}}</nav.link-to>
+        </nav.item>
+      {{/each}}
+      <nav.dropdown as |dd|>
+        <dd.toggle>About <span class="caret"></span></dd.toggle>
+        <dd.menu as |ddm|>
+          <ddm.item>
+            <ddm.link-to @route="about" activeClass="bg-dark">Me</ddm.link-to>
+          </ddm.item>
+        </dd.menu>
+      </nav.dropdown>
+    </navbar.nav>
+  </navbar.content>
+
+  
+  <ul class="nav navbar-nav">
+    {{#each this.socs as |soc|}}
+      <li>
+        <a class="nav-link" href={{soc.link}} target="_blank" rel="noopener noreferrer">
+          <i class={{soc.class}}></i>
+          {{!-- <img class="link-icon" src={{soc.imgSrc}} alt="LinkedIn"> --}}
+        </a>
+        {{!-- <i class="icon-twitter"></i> --}}
+      </li>
+    {{/each}}
+  </ul>
   </div>
-</header>
+</BsNavbar>
