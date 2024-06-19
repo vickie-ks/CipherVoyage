@@ -52,7 +52,7 @@
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         document.body.addEventListener("click", function (event) {
-          if (event.target.tagName === "A" && event.target.href.includes("#")) {
+          if (event.target.tagName === "A" && event.target.href.includes("#") && !event.target.href.includes('#/about/my-projects')) {
             event.preventDefault();
             const targetId = event.target.hash; // Gets the '#...' part
             const targetElement = document.getElementById(

@@ -1,11 +1,11 @@
 <div class="container mt-4">
-  <h2>My Thoughts on Security</h2>
+  <h2>My Projects</h2>
   <p class="lead">
-    Explore essential cybersecurity concepts, tools, and expert advice.
+    Collection of some of my projects.
   </p>
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-4 g-4">
     {{#each this.model as |blog|}}
-      <ArticleItem @article={{blog}} @transitionTo="blogs.blog" />
+      <ArticleItem @article={{blog}} />
     {{/each}}
   </div>
 </div>

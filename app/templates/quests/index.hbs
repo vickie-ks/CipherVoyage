@@ -3,29 +3,9 @@
   <p class="lead">
     Discover my musings on extraterrestrial life, and more.
   </p>
-  {{#if this.model.length}}
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-4 g-4">
-      {{#each this.model as |quest|}}
-        <ArticleItem @article={{quest}} @transitionTo="quests.quest" />
-      {{/each}}
-    </div>
-  {{else}}
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-4 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">
-              No Articles Available
-            </h5>
-            <p class="card-text height">
-              We're sorry, but there are currently no articles to display. Please check again soon.
-            </p>
-          </div>
-          <div class="card-footer">
-            Thank you for your patience | Contact Support for assistance
-          </div>
-        </div>
-      </div>
-    </div>
-  {{/if}}
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-4 g-4">
+    {{#each this.model as |quest|}}
+      <ArticleItem @article={{quest}} @transitionTo="quests.quest" />
+    {{/each}}
+  </div>
 </div>

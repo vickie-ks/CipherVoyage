@@ -1,0 +1,8 @@
+<div class="container mt-3 col-xxl-8">
+  {{#if this.model}}
+    {{! template-lint-disable no-curly-component-invocation }}
+    {{markdown-to-html markdown=this.model}}
+  {{else}}
+    <p>Loading story...</p>
+  {{/if}}
+</div>

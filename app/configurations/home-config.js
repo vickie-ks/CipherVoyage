@@ -25,7 +25,7 @@ export let HOME_CONFIG = {
       title: 'About Me',
       desc: 'Discover my mission to make cybersecurity accessible for all.',
       seeMore: 'Discover More',
-      link: 'about',
+      link: 'about.me',
       img: 'images/about.png',
     },
   ],

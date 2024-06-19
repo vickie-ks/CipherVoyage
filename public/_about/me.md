@@ -136,10 +136,7 @@
 <a id="-projects"></a>
 ### 🏆 Projects
 
-- **Cloud Sec Encryptor**: Designed a vulnerability research and implemented a client-side encryption solution with program analysis for cloud storage, achieving a 70\% reduction in data vulnerability and enhancing user control.
-- **HTTPS Malware Traffic**: A Network Analysis Approach: Led the log analysis of 6.9 GB network traffic research using Wireshark to identify malware communication patterns and update network security protocols.
-- **Secure Software Development Practices (Analysis Paper)**: Analyzed secure software development lifecyle, leading to the identification and implementation of optimal strategies. Achieved a 15\% decrease in security incidents in subsequent projects.
-- **Fake Soft Drinks Detector (IoT Project)**: Published IoT research in IJRTE, achieving 90\% accuracy in detecting expired soft drinks using Raspberry Pi, barcode scanning, and RFID.
+- [Kindly ref here.](#/about/my-projects)
 
 ---
 

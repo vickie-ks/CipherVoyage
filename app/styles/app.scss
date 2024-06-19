@@ -41,6 +41,10 @@ body {
     &.active,
     &:active {
       @extend .bg-success;
+      
+      &:hover {
+        @extend .bg-success;
+      }
     }
   }
 
