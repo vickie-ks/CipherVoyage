@@ -9,6 +9,13 @@ Sample design
 
 export let BLOG_ARTICLES = [
   {
+    id: '3',
+    title: 'The Hidden Risks of Cloud Storage: Is Your Data Really Safe?',
+    description:
+      'Discover the unseen risks of cloud storage and how to shield your data',
+    filePath: '_posts/cloud_sec_encryptor.md',
+  },
+  {
     id: '2',
     title: 'Surfing Secrets: The Magical World of Proxies Unveiled!',
     description:
