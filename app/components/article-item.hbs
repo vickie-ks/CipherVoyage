@@ -12,10 +12,10 @@
       </p>
     </div>
     <div class="card-footer">
-      {{#if @article.github}}
-        <a class="card-link" href={{@article.github}} target="_blank" rel="noopener noreferrer">GitHub.</a>
-      {{else}}
+      {{#if @article.filePath}}
         <a class="card-link" href="#" {{on "click" (fn this.goToArticle @article)}}>Read More.</a>
+      {{else}}
+        <a class="card-link" href={{@article.URL}} target="_blank" rel="noopener noreferrer">{{@article.linkText}}.</a>
       {{/if}}
     </div>
   </div>

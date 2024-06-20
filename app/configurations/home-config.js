@@ -3,7 +3,7 @@ export let HOME_CONFIG = {
     {
       title: 'Cutting-Edge Insights',
       desc: 'Explore essential cybersecurity concepts, tools, and expert advice.',
-      seeMore: 'Read Our Blogs',
+      seeMore: 'Read My Blogs',
       link: 'blogs.index',
       img: 'images/blog.png',
     },
