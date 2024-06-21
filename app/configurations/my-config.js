@@ -28,6 +28,13 @@ export let MY_PROJECTS = [
     linkText: 'GitHub',
   },
   {
+    title: 'HTTPS Malware Traffic',
+    description: 
+      'Discover groundbreaking insights into HTTPS malware detection through our latest research. Learn how advanced network analysis techniques can expose hidden malware activities that traditional methods often miss.',
+    URL: '_posts/https_traffic.pdf',
+    linkText: 'Detailed Research'
+  },
+  {
     title: 'Fake Soft Drinks Detector',
     description:
       'Discover our pioneering IoT research published in IJRTE, where we leverage Raspberry Pi, barcode scanning, and RFID technology to detect expired soft drinks with 90% accuracy.',
