@@ -18,7 +18,7 @@ export let HOME_CONFIG = {
       title: 'Innovative Research',
       desc: "Explore research shaping cybersecurity's future.",
       seeMore: 'View Research',
-      link: 'blogs.index',
+      link: 'about.my-projects',
       img: 'images/research.png',
     },
     {

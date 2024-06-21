@@ -29,10 +29,10 @@ export let MY_PROJECTS = [
   },
   {
     title: 'HTTPS Malware Traffic',
-    description: 
+    description:
       'Discover groundbreaking insights into HTTPS malware detection through our latest research. Learn how advanced network analysis techniques can expose hidden malware activities that traditional methods often miss.',
     URL: '_posts/https_traffic.pdf',
-    linkText: 'Detailed Research'
+    linkText: 'Detailed Research',
   },
   {
     title: 'Fake Soft Drinks Detector',
