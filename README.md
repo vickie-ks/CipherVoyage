@@ -1,6 +1,6 @@
 # CipherVoyage
 
-Welcome to **CipherVoyage**, a unique blogging website created by [Me](https://github.com/vickie-ks). This platform is dedicated to sharing insights, secrets, and discoveries from the hidden world of cybersecurity. Join us as we embark on a mystic voyage into digital shadows, uncovering powerful revelations and cutting-edge discoveries.
+Welcome to **CipherVoyage**, a unique blogging website created by [Me](https://github.com/vickie-ks). This platform is dedicated to sharing insights, secrets, and discoveries from the hidden world of cybersecurity. Join me as we embark on a mystic voyage into digital shadows, uncovering powerful revelations and cutting-edge discoveries.
 
 ## About
 

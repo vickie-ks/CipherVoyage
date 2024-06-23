@@ -69,7 +69,7 @@
 <a id="-skills-and-expertise"></a>
 ### 🛠️ Skills and Expertise
 
-##### **Security**
+##### Security
 - ✅ Cloud Security
 - ✅ Network Security
 - ✅ Application Security
@@ -84,7 +84,7 @@
 
 ---
 
-##### **Programming Languages**
+##### Programming Languages
 - ✅ Python
 - ✅ Java
 - ✅ C++
@@ -95,13 +95,13 @@
 
 ---
 
-##### **Databases**
+##### Databases
 - ✅ MySQL
 - ✅ MongoDB
 
 ---
 
-##### **Security Tools**
+##### Security Tools
 - ✅ Wireshark
 - ✅ Nessus
 - ✅ Splunk
@@ -110,7 +110,7 @@
 
 ---
 
-##### **Operating Systems**
+##### Operating Systems
 - ✅ Linux
 - ✅ Windows
 - ✅ Android
@@ -118,7 +118,7 @@
 
 ---
 
-##### **Networking**
+##### Networking
 - ✅ TCP/IP
 - ✅ DNS
 - ✅ Routing
