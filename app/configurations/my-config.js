@@ -23,7 +23,7 @@ export let MY_PROJECTS = [
   {
     title: 'FlashTunnel',
     description:
-      'The premier solution for secure, private browsing directly through your web browser. Our aim is to provide a seamless, user-friendly VPN experience without the complexity of traditional setups.',
+      'The premier solution for secure, private browsing directly through your web browser. My aim is to provide a seamless, user-friendly VPN experience without the complexity of traditional setups.',
     URL: 'https://github.com/vickie-ks/FlashTunnel',
     linkText: 'GitHub',
   },
@@ -31,7 +31,14 @@ export let MY_PROJECTS = [
     title: 'HTTPS Malware Traffic',
     description:
       'Discover groundbreaking insights into HTTPS malware detection through our latest research. Learn how advanced network analysis techniques can expose hidden malware activities that traditional methods often miss.',
-    URL: '_posts/https_traffic.pdf',
+    URL: '_pdf/https_traffic.pdf',
+    linkText: 'Detailed Research',
+  },
+  {
+    title: 'Securing the SDLC',
+    description:
+      'A deep dive into robust security practices throughout the Software Development Lifecycle (SDLC), emphasizing proactive vulnerability mitigation and secure coding to bolster software integrity and defense capabilities.',
+    URL: '_pdf/Secure_Software_Lifecycle.pdf',
     linkText: 'Detailed Research',
   },
   {
