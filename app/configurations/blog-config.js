@@ -11,9 +11,9 @@ export let BLOG_ARTICLES = [
   {
     id: '4',
     title: 'Revealing E2EE: The Key to Digital Privacy',
-    description: 
+    description:
       'Discover how End-to-End Encryption ensures your communications remain secure, private, and protected from unauthorized access.',
-    filePath: '_posts/E2EE.md'
+    filePath: '_posts/E2EE.md',
   },
   {
     id: '3',
@@ -39,6 +39,13 @@ export let BLOG_ARTICLES = [
 ];
 
 export let QUEST_ARTICLES = [
+  {
+    id: '3',
+    title: 'From Fiction to Reality: The Astonishing Connection',
+    description:
+      'Exploring the striking parallels between "The 100" and Neuralink, and their implications for our technological future.',
+    filePath: '_posts/neuralink.md',
+  },
   {
     id: '2',
     title: 'Echoes of Our Ancestors ~ A Story of Connection',
