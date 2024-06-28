@@ -9,6 +9,13 @@ Sample design
 
 export let BLOG_ARTICLES = [
   {
+    id: '4',
+    title: 'Revealing E2EE: The Key to Digital Privacy',
+    description: 
+      'Discover how End-to-End Encryption ensures your communications remain secure, private, and protected from unauthorized access.',
+    filePath: '_posts/E2EE.md'
+  },
+  {
     id: '3',
     title: 'The Hidden Risks of Cloud Storage: Is Your Data Really Safe?',
     description:
