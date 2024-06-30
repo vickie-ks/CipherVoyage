@@ -9,6 +9,13 @@ Sample design
 
 export let BLOG_ARTICLES = [
   {
+    id: '5',
+    title: 'Exploring the Jungle of Client-Side Risks: A Quick Guide',
+    description:
+      'Explore the top 10 client-side security risks in a fun, engaging way with the OWASP-WebScanner project.',
+    filePath: '_posts/owasp-client.md',
+  },
+  {
     id: '4',
     title: 'Revealing E2EE: The Key to Digital Privacy',
     description:
