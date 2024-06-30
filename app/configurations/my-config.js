@@ -21,6 +21,13 @@ export let MY_PROJECTS = [
     linkText: 'GitHub',
   },
   {
+    title: 'OWASP-WebScanner',
+    description:
+      'The OWASP-WebScanner is an AI-driven cybersecurity tool that scans web applications to identify the top 10 OWASP Client-Side security risks, employing machine learning to detect and report vulnerabilities effectively.',
+    URL: 'https://github.com/vickie-ks/OWASP-WebScanner',
+    linkText: 'GitHub',
+  },
+  {
     title: 'FlashTunnel',
     description:
       'The premier solution for secure, private browsing directly through your web browser. My aim is to provide a seamless, user-friendly VPN experience without the complexity of traditional setups.',
