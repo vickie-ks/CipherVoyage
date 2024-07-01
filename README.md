@@ -8,7 +8,7 @@ Welcome to **CipherVoyage**, a unique blogging website created by [Me](https://g
 
 ### Website Motto
 
-"A Mystic Voyage into Digital Shadows - Embark on a journey through the hidden world of cybersecurity, uncovering secrets and insights. Join us for powerful revelations and cutting-edge discoveries."
+"A Mystic Voyage into Digital Shadows - Embark on a journey through the hidden world of cybersecurity, uncovering secrets and insights. Join me for powerful revelations and cutting-edge discoveries."
 
 ## Content
 
@@ -26,4 +26,4 @@ Stay tuned for regular updates and new blog posts. Feel free to explore the cont
 
 ## Contact
 
-If you have any questions, suggestions, or collaboration ideas, please reach out to me at [vigneshrajan2022@example.com](mailto:vigneshrajan2022@example.com).
+If you have any questions, suggestions, or collaboration ideas, please reach out to me at [vigneshrajan2022@gmail.com](mailto:vigneshrajan2022@gmail.com).
