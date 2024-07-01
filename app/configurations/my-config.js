@@ -9,7 +9,7 @@ export let MY_PROJECTS = [
   {
     title: 'VaultChat',
     description:
-      'A secure, enterprise-grade chat system designed to facilitate encrypted communications within organizations, ensuring confidentiality, integrity, and availability of data.',
+      'VaultChat is an enterprise-grade chat system that uses the robust NTRU encryption algorithm for secure communication. It ensures confidentiality and resistance against quantum computing threats.',
     URL: 'https://github.com/vickie-ks/VaultChat',
     linkText: 'GitHub',
   },
@@ -40,6 +40,20 @@ export let MY_PROJECTS = [
       'Discover groundbreaking insights into HTTPS malware detection through our latest research. Learn how advanced network analysis techniques can expose hidden malware activities that traditional methods often miss.',
     URL: '_pdf/https_traffic.pdf',
     linkText: 'Detailed Research',
+  },
+  {
+    title: 'Website Fingerprinting',
+    description:
+      'Explore website fingerprinting through practical exercises in cache-based side channel attacks using JavaScript',
+    URL: 'https://github.com/vickie-ks/WebsiteFingerprinting',
+    linkText: 'GitHub',
+  },
+  {
+    title: 'NetworkX Experiments',
+    description:
+      'Exploring and experimenting with the NetworkX library in Python. NetworkX is a powerful tool for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.',
+    URL: 'https://github.com/vickie-ks/NetworkX-Experiments',
+    linkText: 'GitHub',
   },
   {
     title: 'Securing the SDLC',
