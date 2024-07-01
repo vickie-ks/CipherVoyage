@@ -31,6 +31,10 @@ body {
     @extend .link-success;
   }
 
+  .btn {
+    font-size: 15px;
+  }
+
   .dropdown-item {
     &:hover {
       @extend .bg-success-subtle;
