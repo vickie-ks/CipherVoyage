@@ -13,7 +13,13 @@
     </div>
     <div class="card-footer">
       {{#if @article.filePath}}
-        <a class="card-link" href="#" {{on "click" (fn this.goToArticle @article)}}>Read More.</a>
+        <a class="card-link" href="#" {{on "click" (fn this.goToArticle @article)}}>
+          {{#if @article.linkText}}
+            {{@article.linkText}}.
+          {{else}}
+            Read More.
+          {{/if}}
+        </a>
       {{else}}
         <a class="card-link" href={{@article.URL}} target="_blank" rel="noopener noreferrer">{{@article.linkText}}.</a>
       {{/if}}

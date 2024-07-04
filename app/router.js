@@ -21,4 +21,8 @@ Router.map(function () {
     this.route('index', { path: '/' });
     this.route('quest', { path: '/:quest_id' });
   });
+  this.route('echoes', function () {
+    this.route('index', { path: '/' });
+    this.route('echo', { path: '/:echo_id' });
+  });
 });

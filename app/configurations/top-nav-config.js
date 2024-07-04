@@ -12,6 +12,10 @@ export let TOPNAV_CONFIG = {
       link: 'quests',
       label: 'Quests',
     },
+    {
+      link: 'echoes',
+      label: 'Echoes',
+    },
   ],
   SOC: [
     {

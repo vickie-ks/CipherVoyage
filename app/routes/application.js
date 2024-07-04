@@ -10,6 +10,7 @@ export default class ApplicationRoute extends Route {
       !currentUrl.includes('home') &&
       !currentUrl.includes('blogs') &&
       !currentUrl.includes('quests') &&
+      !currentUrl.includes('echoes') &&
       !currentUrl.includes('about')
     ) {
       this.router.transitionTo('home');
