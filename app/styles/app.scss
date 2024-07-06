@@ -2,12 +2,12 @@
 
 html,
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'myriad-pro', sans-serif;
 
   h6 {
     font-size: 1.2rem;
   }
-
+  
   .card-text {
     &.center {
       text-align-last: center;
@@ -54,6 +54,7 @@ body {
   }
 
   .navbar {
+    @extend .sticky-top;
     .container-fluid {
       @extend .container;
     }
