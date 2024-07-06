@@ -15,18 +15,6 @@ At its core, E2EE utilizes both symmetric and asymmetric encryption to safeguard
 3. Key Exchange Protocols: Diffie-Hellman, Elliptic-curve Diffie–Hellman (ECDH)
 4. Digital Signatures: RSA, Digital Signature Algorithm (DSA), Elliptic Curve Digital Signature Algorithm (ECDSA)
 
-##### Why Every Company is Embracing E2EE?
-
-The widespread adoption of E2EE by companies is driven by several compelling reasons:
-
-1. Data Privacy: In a world where data breaches and surveillance are rampant, E2EE provides a robust shield against unauthorized access. It ensures that sensitive information remains confidential, protecting users from potential exploitation.
-
-2. Security Compliance: Regulatory frameworks like GDPR, HIPAA, and CCPA mandate stringent data protection measures. E2EE helps companies comply with these regulations by ensuring that user data is securely encrypted from end to end.
-
-3. Trust and Transparency: Implementing E2EE builds trust with users by demonstrating a commitment to their privacy. This transparency is crucial in fostering user loyalty and confidence in the company’s services.
-
-4. Protection Against Cyber Threats: With cyberattacks becoming increasingly sophisticated, E2EE acts as a formidable defense mechanism. It mitigates the risk of man-in-the-middle attacks, ensuring that communication remains secure even over potentially compromised networks.
-
 ##### The Purpose of End-to-End Encryption
 
 The primary objective of E2EE is to protect the confidentiality, integrity, and authenticity of communications. Here’s how it accomplishes these goals:
@@ -41,13 +29,13 @@ The primary objective of E2EE is to protect the confidentiality, integrity, and 
 
 Let’s consider WhatsApp, a leading messaging platform, which employs E2EE to secure its communications. WhatsApp uses the Signal Protocol to implement E2EE, ensuring that messages, calls, photos, and videos are accessible only to the sender and recipient. Here’s how it works:
 
-1. Key Generation and Exchange: Each user generates a pair of public and private keys. These keys are exchanged using the Signal Protocol to establish a secure session.
+- Each user generates a pair of public and private keys. These keys are exchanged using the Signal Protocol to establish a secure session.
 
-2. Message Encryption: Messages are encrypted using a symmetric encryption algorithm (AES256). The symmetric key is then encrypted with the recipient’s public key.
+- Messages are encrypted using a symmetric encryption algorithm (AES256). The symmetric key is then encrypted with the recipient’s public key.
 
-3. Message Decryption: The recipient’s private key decrypts the symmetric key, which is then used to decrypt the message content.
+- The recipient’s private key decrypts the symmetric key, which is then used to decrypt the message content.
 
-4. Forward Secrecy: Session keys are regularly updated and discarded, ensuring that even if a session key is compromised, past communications remain secure.
+- Session keys are regularly updated and discarded, ensuring that even if a session key is compromised, past communications remain secure.
 
 ##### Conclusion: The Future of Secure Communication
 
