@@ -1,4 +1,4 @@
-## Echoes of Our Ancestors ~ A Story of Connection
+### Echoes of Our Ancestors ~ A Story of Connection
 
 <img src="images/blogs/chimp-empire.png" alt="proxy-sec" class="md-img">
 

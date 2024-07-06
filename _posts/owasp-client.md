@@ -34,3 +34,4 @@ Welcome to the digital wild, where the beasts of client-side risks lurk behind l
 
 As we trim the branches and clear the undergrowth in this ever-evolving landscape, staying informed and prepared is key. For those ready to take their security toolkit to the next level, consider diving into my [OWASP-WebScanner](https://github.com/vickie-ks/OWASP-WebScanner) project. It's designed to help you identify and mitigate these top client-side vulnerabilities effectively.
 
+*Author: <a href="https://github.com/vickie-ks" target="_blank">vickie-ks</a>*
