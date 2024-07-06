@@ -1,4 +1,4 @@
-## Surfing Secrets: The Magical World of Proxies Unveiled!
+### Surfing Secrets: The Magical World of Proxies Unveiled!
 
 <img src="images/blogs/proxy-sec.png" alt="proxy-sec" class="md-img">
 

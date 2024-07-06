@@ -1,4 +1,4 @@
-## The Journey of Life on Our Planet!
+### The Journey of Life on Our Planet!
 
 <img src="images/blogs/life-on-planet.png" alt="proxy-sec" class="md-img">
 

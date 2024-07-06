@@ -1,4 +1,4 @@
-## The Great Digital Duel: VPNs vs. Proxies - Who Wins?
+### The Great Digital Duel: VPNs vs. Proxies - Who Wins?
 
 <img src="images/blogs/vpn-proxy.png" alt="proxy-sec" class="md-img">
 
