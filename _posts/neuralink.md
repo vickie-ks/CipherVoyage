@@ -1,4 +1,5 @@
 ### From Fiction to Reality: The Astonishing Connection
+<div id="copyUrl"></div>
 
 Recently, I delved into the post-apocalyptic world of the television series "The 100," where advanced technology and moral complexity paint a vivid picture of human survival. Among the many striking elements in the show, one particularly resonated with me: the use of AI chips that are implanted in human brains, elevating humans to god-like statuses due to their enhanced capabilities. This concept, while fantastical, left me pondering the limits of technology in our own world.
 

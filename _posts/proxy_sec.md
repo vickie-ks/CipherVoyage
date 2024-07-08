@@ -1,6 +1,7 @@
 ### Surfing Secrets: The Magical World of Proxies Unveiled!
 
 <img src="images/blogs/proxy-sec.png" alt="proxy-sec" class="md-img">
+<div id="copyUrl"></div>
 
 Ever felt like a digital ninja, stealthily bypassing barriers on the vast internet landscape? That’s the thrilling power of proxy technologies—a wizard’s toolkit in our hyper-connected world.
 

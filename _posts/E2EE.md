@@ -1,4 +1,5 @@
 ### Revealing E2EE: The Key to Digital Privacy
+<div id="copyUrl"></div>
 
 In the digital age, where information flows faster than ever, ensuring the privacy and security of our communications has become paramount. Enter End-to-End Encryption (E2EE) – a formidable ally in the fight for digital privacy. But what exactly is E2EE, and why are companies across the globe adopting it with fervor? Let’s dive into the intricacies of this technology and uncover why it’s essential for secure communication.
 
