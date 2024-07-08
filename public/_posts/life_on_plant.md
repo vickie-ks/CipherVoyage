@@ -1,6 +1,7 @@
 ### The Journey of Life on Our Planet!
 
 <img src="images/blogs/life-on-planet.png" alt="proxy-sec" class="md-img">
+<div id="copyUrl"></div>
 
 
 Our blue planet has has endured remarkable challenges over its vast history. It has weathered five major extinction events, each transforming life in profound ways, shaping the biodiversity we see today.

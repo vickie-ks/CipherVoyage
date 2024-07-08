@@ -1,8 +1,16 @@
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
+import { scheduleOnce } from '@ember/runloop';
 
 export default class QuestsQuestRoute extends Route {
   @service questStore;
+  @service domModifier;
+
+  activate() {
+    scheduleOnce('afterRender', this, () => {
+      this.domModifier.appendShareButton('copyUrl');
+    });
+  }
 
   model(param) {
     let file = this.questStore.getQuestById(param.quest_id);

@@ -1,4 +1,5 @@
 ### Exploring the Jungle of Client-Side Risks: A Quick Guide
+<div id="copyUrl"></div>
 
 Welcome to the digital wild, where the beasts of client-side risks lurk behind lines of code, waiting for the unwary coder or user to step wrong. Let's take a brisk walk through this jungle, highlighting the ten most common critters that could threaten your application's security.
 

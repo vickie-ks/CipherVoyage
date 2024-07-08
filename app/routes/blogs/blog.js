@@ -1,8 +1,16 @@
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
+import { scheduleOnce } from '@ember/runloop';
 
 export default class BlogsBlogRoute extends Route {
   @service blogStore;
+  @service domModifier;
+
+  activate() {
+    scheduleOnce('afterRender', this, () => {
+      this.domModifier.appendShareButton('copyUrl');
+    });
+  }
 
   model(param) {
     let file = this.blogStore.getBlogById(param.blog_id);

@@ -1,6 +1,7 @@
 ### The Great Digital Duel: VPNs vs. Proxies - Who Wins?
 
 <img src="images/blogs/vpn-proxy.png" alt="proxy-sec" class="md-img">
+<div id="copyUrl"></div>
 
 Hey there, fellow internet wanderers! Let’s dive into the fascinating world of network security—specifically, the ever-persistent showdown between VPNs and proxies.
 
