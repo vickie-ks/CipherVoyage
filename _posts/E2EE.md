@@ -39,6 +39,6 @@ End-to-End Encryption is not just a technological innovation; it is a fundamenta
 
 Companies adopting E2EE are not only safeguarding their users but also setting a standard for privacy and security in the industry. In a landscape fraught with cyber threats and data breaches, E2EE stands as a beacon of trust and reliability. As cybersecurity analysts, we must advocate for and implement such technologies to uphold the sanctity of digital communication.
 
-&mdash; <code>Stay secure, stay private, and let End-to-End Encryption be your shield in the digital battlefield.</code>
+ <blockquote><em>&mdash; Stay secure, stay private, and let End-to-End Encryption be your shield in the digital battlefield.</em></blockquote>
 
 *Author: <a href="https://github.com/vickie-ks" target="_blank">vickie-ks</a>*

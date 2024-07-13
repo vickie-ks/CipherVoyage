@@ -15,6 +15,8 @@ This story of the chimps is not just interesting—it also touches our hearts. I
 
 Let's keep the story of the Chimp Empire alive. It teaches us about our past and shows us how caring for others, no matter how different, makes us all better.
 
-In every chimp's smile and every playful chase, we find a piece of our shared story. &mdash; <code>Let's cherish and protect their world as they teach us about our own.</code>
+In every chimp's smile and every playful chase, we find a piece of our shared story. 
+
+<blockquote><em>&mdash; Let's cherish and protect their world as they teach us about our own.</em></blockquote>
 
 *Author: <a href="https://github.com/vickie-ks" target="_blank">vickie-ks</a>*

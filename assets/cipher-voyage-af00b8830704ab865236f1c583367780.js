@@ -125,4 +125,4 @@ e.default=(0,t.createTemplateFactory)({id:"ZaIv/99b",block:'[[[10,0],[14,0,"cont
 r.value=t,document.body.appendChild(r),r.select(),document.execCommand("copy"),document.body.removeChild(r)
 const o=e.textContent
 e.textContent="Copied!!",setTimeout((()=>{e.textContent=o}),2e3)}})),define("cipher-voyage/config/environment",[],(function(){try{var e="cipher-voyage/config/environment",t=document.querySelector('meta[name="'+e+'"]').getAttribute("content"),r={default:JSON.parse(decodeURIComponent(t))}
-return Object.defineProperty(r,"__esModule",{value:!0}),r}catch(o){throw new Error('Could not read config from meta tag with name "'+e+'".')}})),runningTests||require("cipher-voyage/app").default.create({name:"cipher-voyage",version:"0.0.0+d13e9f80"})
+return Object.defineProperty(r,"__esModule",{value:!0}),r}catch(o){throw new Error('Could not read config from meta tag with name "'+e+'".')}})),runningTests||require("cipher-voyage/app").default.create({name:"cipher-voyage",version:"0.0.0+babce66f"})
