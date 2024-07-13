@@ -34,6 +34,19 @@ body {
   #main-content a:not(.btn) {
     @extend .link-success;
   }
+  
+  blockquote {
+    @extend .bg-light;
+    @extend .border-success-subtle;
+    font-size: inherit;
+    padding: 1.08rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-left: 0.25rem solid;
+    p {
+      margin-bottom: 0rem !important;
+    }
+  }
 
   .btn {
     font-size: 15px;

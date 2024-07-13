@@ -21,9 +21,7 @@ At its core, E2EE utilizes both symmetric and asymmetric encryption to safeguard
 The primary objective of E2EE is to protect the confidentiality, integrity, and authenticity of communications. Here’s how it accomplishes these goals:
 
 1. Confidentiality: E2EE ensures that only the intended recipient can decrypt and read the message, keeping the communication private.
-
 2. Integrity: By using digital signatures, E2EE guarantees that the message has not been tampered with during transmission.
-
 3. Authenticity: The use of public key infrastructure (PKI) and digital signatures verifies the identity of the communicating parties, ensuring that the message is genuinely from the sender.
 
 ##### E2EE in Action: The WhatsApp Example
@@ -31,11 +29,8 @@ The primary objective of E2EE is to protect the confidentiality, integrity, and 
 Let’s consider WhatsApp, a leading messaging platform, which employs E2EE to secure its communications. WhatsApp uses the Signal Protocol to implement E2EE, ensuring that messages, calls, photos, and videos are accessible only to the sender and recipient. Here’s how it works:
 
 - Each user generates a pair of public and private keys. These keys are exchanged using the Signal Protocol to establish a secure session.
-
 - Messages are encrypted using a symmetric encryption algorithm (AES256). The symmetric key is then encrypted with the recipient’s public key.
-
 - The recipient’s private key decrypts the symmetric key, which is then used to decrypt the message content.
-
 - Session keys are regularly updated and discarded, ensuring that even if a session key is compromised, past communications remain secure.
 
 ##### Conclusion: The Future of Secure Communication
@@ -44,6 +39,6 @@ End-to-End Encryption is not just a technological innovation; it is a fundamenta
 
 Companies adopting E2EE are not only safeguarding their users but also setting a standard for privacy and security in the industry. In a landscape fraught with cyber threats and data breaches, E2EE stands as a beacon of trust and reliability. As cybersecurity analysts, we must advocate for and implement such technologies to uphold the sanctity of digital communication.
 
-&mdash; <code>Stay secure, stay private, and let End-to-End Encryption be your shield in the digital battlefield.</code>
+ <blockquote><em>&mdash; Stay secure, stay private, and let End-to-End Encryption be your shield in the digital battlefield.</em></blockquote>
 
 *Author: <a href="https://github.com/vickie-ks" target="_blank">vickie-ks</a>*

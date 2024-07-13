@@ -1,10 +1,13 @@
 import Route from '@ember/routing/route';
-import { inject as service } from '@ember/service';
+import { BLOG_ARTICLES } from '../../configurations/blog-config';
 
 export default class BlogsIndexRoute extends Route {
-  @service blogStore;
-
   model() {
-    return this.blogStore.getBlogs();
+    return {
+      title: BLOG_ARTICLES.title,
+      description: BLOG_ARTICLES.description,
+      transitionTo: BLOG_ARTICLES.transitionTo,
+      articlesList: BLOG_ARTICLES.articlesList,
+    };
   }
 }

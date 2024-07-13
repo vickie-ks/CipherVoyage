@@ -13,7 +13,9 @@ The convergence of Neuralink's ambitions with the narrative of "The 100" is a st
 
 ##### A Personal Takeaway
 
-As I connect these dots, I'm left in awe of the potential for technology to transform our lives. However, this excitement is tempered by the ethical dilemmas and societal impacts highlighted both in "The 100" and in discussions about Neuralink. As we edge closer to these sci-fi realities, the questions of who controls these technologies and how they are used become increasingly significant. As these technologies develop, they challenge us to not only question their capabilities but also their impact on society. It's a reminder that, <code>With Great Power Comes Great Responsibility</code>&mdash;a proverb that feels more relevant now than ever.
+As I connect these dots, I'm left in awe of the potential for technology to transform our lives. However, this excitement is tempered by the ethical dilemmas and societal impacts highlighted both in "The 100" and in discussions about Neuralink. As we edge closer to these sci-fi realities, the questions of who controls these technologies and how they are used become increasingly significant. As these technologies develop, they challenge us to not only question their capabilities but also their impact on society. It's a reminder that, a proverb that feels more relevant now than ever.
+
+<blockquote><em>&mdash; With Great Power Comes Great Responsibility</em></blockquote>
 
 ##### Conclusion: Treading the Path of Innovation with Care
 

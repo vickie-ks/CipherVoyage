@@ -13,6 +13,10 @@ We can’t forget the HTTPS proxies which add an extra layer of encryption, guar
 
 But today's proxies aren’t just about accessing the restricted or hiding in the shadows; they’re evolving. Imagine proxies as your personal bodyguards, or even better, shape-shifters, adapting in real-time to protect you from digital threats. They’re the silent sentinels in the war against cyber-attacks, the watchful guardians of network traffic.
 
-In the grand tapestry of the internet, proxies are both shield and sword, blending old roles with new innovations to ensure that every digital explorer can navigate safely and freely. So, as the digital winds shift, remember: &mdash; <code>Only those who master the shadows can truly harness the light</code>. Embrace the power of proxies, and chart a fearless course through the cyber seas!
+In the grand tapestry of the internet, proxies are both shield and sword, blending old roles with new innovations to ensure that every digital explorer can navigate safely and freely. So, as the digital winds shift, remember: 
+
+<blockquote><em>&mdash; Only those who master the shadows can truly harness the light.</em></blockquote>
+
+Embrace the power of proxies, and chart a fearless course through the cyber seas!
 
 *Author: <a href="https://github.com/vickie-ks" target="_blank">vickie-ks</a>*

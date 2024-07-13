@@ -1,10 +1,13 @@
 import Route from '@ember/routing/route';
-import { inject as service } from '@ember/service';
+import { QUEST_ARTICLES } from '../../configurations/blog-config';
 
 export default class QuestsIndexRoute extends Route {
-  @service questStore;
-
   model() {
-    return this.questStore.getQuests();
+    return {
+      title: QUEST_ARTICLES.title,
+      description: QUEST_ARTICLES.description,
+      transitionTo: QUEST_ARTICLES.transitionTo,
+      articlesList: QUEST_ARTICLES.articlesList,
+    };
   }
 }

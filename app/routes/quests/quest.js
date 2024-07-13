@@ -7,9 +7,7 @@ export default class QuestsQuestRoute extends Route {
   @service domModifier;
 
   activate() {
-    scheduleOnce('afterRender', this, () => {
-      this.domModifier.appendShareButton('copyUrl');
-    });
+    scheduleOnce('afterRender', this, this.appendShareButton);
   }
 
   model(param) {
@@ -20,5 +18,9 @@ export default class QuestsQuestRoute extends Route {
       }
       return response.text();
     });
+  }
+
+  appendShareButton() {
+    this.domModifier.appendShareButton('copyUrl');
   }
 }

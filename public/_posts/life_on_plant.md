@@ -14,6 +14,8 @@ Today, as we face the impacts of climate change, this history of resilience serv
 
 As the survivors of our planet, we draw strength from Earth’s past. The same adaptability and resilience that saw life through ice ages and volcanic winters will be crucial as we navigate the challenges of the present and future.
 
-Let’s channel our collective efforts and knowledge to ensure that life not only endures but thrives. Facing the challenges ahead with unity and innovation, we continue the legacy of resilience that defines our planet. This is our time to act, inspired by the resilience of life itself. As the old proverb goes, &mdash; <code>Just when the caterpillar thought the world was over, it became a butterfly.</code>
+Let’s channel our collective efforts and knowledge to ensure that life not only endures but thrives. Facing the challenges ahead with unity and innovation, we continue the legacy of resilience that defines our planet. This is our time to act, inspired by the resilience of life itself. As the old proverb goes, 
+
+<blockquote><em>&mdash; Just when the caterpillar thought the world was over, it became a butterfly.</em></blockquote>
 
 *Author: <a href="https://github.com/vickie-ks" target="_blank">vickie-ks</a>*

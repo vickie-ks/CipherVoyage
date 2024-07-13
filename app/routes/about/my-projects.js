@@ -1,11 +1,12 @@
 import Route from '@ember/routing/route';
-import { inject as service } from '@ember/service';
 import { MY_PROJECTS } from '../../configurations/my-config';
 
 export default class AboutMyProjectsRoute extends Route {
-  @service blogStore;
-
   model() {
-    return MY_PROJECTS;
+    return {
+      title: MY_PROJECTS.title,
+      description: MY_PROJECTS.description,
+      articlesList: MY_PROJECTS.articlesList,
+    };
   }
 }

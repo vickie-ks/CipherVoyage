@@ -1,9 +1,1 @@
-<div class="container mt-4">
-  <h2>My Projects</h2>
-  <h6>Collection of some of my projects.</h6>
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-4 g-4">
-    {{#each this.model as |blog|}}
-      <ArticleItem @article={{blog}} />
-    {{/each}}
-  </div>
-</div>
+<ArticleList @article={{this.model}} />

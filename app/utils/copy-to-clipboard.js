@@ -1,5 +1,3 @@
-import { copy } from '@ember/object/internals';
-
 export default function copyToClipboard(element) {
   const url = window.location.href;
   const el = document.createElement('textarea');
