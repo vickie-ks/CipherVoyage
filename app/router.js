@@ -25,4 +25,5 @@ Router.map(function () {
     this.route('index', { path: '/' });
     this.route('echo', { path: '/:echo_id' });
   });
+  this.route('not-found', { path: '/*wildcard' });
 });
