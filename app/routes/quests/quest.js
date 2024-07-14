@@ -5,6 +5,7 @@ import { scheduleOnce } from '@ember/runloop';
 export default class QuestsQuestRoute extends Route {
   @service questStore;
   @service domModifier;
+  @service router;
 
   activate() {
     scheduleOnce('afterRender', this, this.appendShareButton);
@@ -12,6 +13,10 @@ export default class QuestsQuestRoute extends Route {
 
   model(param) {
     let file = this.questStore.getQuestById(param.quest_id);
+    if (!file) {
+      this.router.transitionTo('quests');
+      return;
+    }
     return fetch(file.filePath).then((response) => {
       if (!response.ok) {
         throw new Error('Could not fetch the Markdown file');

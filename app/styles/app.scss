@@ -31,7 +31,7 @@ body {
     border-radius: 1.375rem;
   }
 
-  #main-content a:not(.btn) {
+  #main-content a:not(.text-white) {
     @extend .link-success;
   }
 
