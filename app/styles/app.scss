@@ -34,7 +34,7 @@ body {
   #main-content a:not(.btn) {
     @extend .link-success;
   }
-  
+
   blockquote {
     @extend .bg-light;
     @extend .border-success-subtle;
@@ -50,6 +50,11 @@ body {
 
   .btn {
     font-size: 15px;
+  }
+
+  .card,
+  .rounded {
+    animation: fadeInUp 0.5s ease-in-out both;
   }
 
   .dropdown-item {
@@ -78,5 +83,16 @@ body {
 
   .share-btn {
     cursor: pointer;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
