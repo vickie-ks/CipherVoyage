@@ -1,8 +1,255 @@
-<div class="container mt-3 col-xxl-8">
-  {{#if this.model}}
-    {{! template-lint-disable no-curly-component-invocation }}
-    {{markdown-to-html markdown=this.model}}
-  {{else}}
-    <Loading />
-  {{/if}}
+<div class="container mt-5">
+  <div class="row">
+    {{! Profile Section }}
+    <div class="col-lg-4 text-center mb-4">
+      <img
+        src="images/avatar.png"
+        class="rounded-circle mb-3 avatar"
+        alt="Vigneshwar (Vickie) Sundararajan"
+      />
+      <h2>Vigneshwar (Vickie) Sundararajan</h2>
+      <p class="lead">Cybersecurity Enthusiast | Software Developer</p>
+      <div class="d-flex justify-content-center">
+        <LinkTo class="btn btn-success text-white" @route="blogs">Visit My Blogs</LinkTo>
+        <LinkTo class="btn btn-outline-success mx-1" @route="about.my-projects">My Projects</LinkTo>
+        <a
+          href="_pdf/Resume.pdf"
+          class="btn btn-outline-success mx-1"
+          target="_blank"
+          rel="noopener noreferrer"
+        ><i class="fas fa-cloud-download-alt pe-1"></i>Resume</a>
+      </div>
+      <div class="d-flex justify-content-center mt-2">
+        <a
+          href="mailto:vigneshrajan2022@gmail.com"
+          class="btn btn-outline-success mx-1"
+          target="_blank"
+          rel="noopener noreferrer"
+        ><i class="fas fa-envelope"></i></a>
+        <a
+          href="tel:+13864568187"
+          class="btn btn-outline-success mx-1"
+          target="_blank"
+          rel="noopener noreferrer"
+        ><i class="fas fa-phone"></i></a>
+        <a
+          href="https://www.linkedin.com/in/vigneshwar-sundararajan-07a2a5185"
+          class="btn btn-outline-success mx-1"
+          target="_blank"
+          rel="noopener noreferrer"
+        ><i class="fab fa-linkedin-in"></i></a>
+        <a
+          href="https://github.com/vickie-ks"
+          class="btn btn-outline-success mx-1"
+          target="_blank"
+          rel="noopener noreferrer"
+        ><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+
+    {{! About Me and Experience Section }}
+    <div class="col-lg-8">
+      <div class="card mb-4">
+        <div class="card-header">
+          <h4>About Me</h4>
+        </div>
+        <div class="card-body">
+          <p>Hello! I'm Vickie, a Dynamic Cybersecurity enthusiast and a Web
+            Application Developer with over
+            <span class="badge bg-success">3+ years</span>
+            of professional experience at Zoho Corporation, where I specialize
+            in software development and security enhancements. Currently
+            pursuing a Master's in Cybersecurity and Privacy at the University
+            of Central Florida, I am keen on transitioning into a
+            cybersecurity-focused role. My background includes a proven track
+            record in boosting system security and operational efficiency,
+            leveraging expertise in Continuous Integration and Continuous
+            Deployment (CI/CD) processes, and a strong foundation in web and
+            application security.</p>
+        </div>
+      </div>
+
+      {{! Professional Experience Section }}
+      <div class="card mb-4">
+        <div class="card-header">
+          <h4>Professional Experience</h4>
+        </div>
+        <BsAccordion as |acc|>
+          <acc.item
+            @value="1"
+            @title="Zoho Corporation - Member Technical Staff (Oct 2020 – Jul 2023)"
+          >
+            <BsListGroup @flush={{true}} as |ListGroup|>
+              <ListGroup.item>Implemented SSO, 2FA, SAML, OAuth and RBAC for
+                Manage Engine Endpoint Central, reducing unauthorized access by
+                50% and enhancing security.</ListGroup.item>
+              <ListGroup.item>Crafted and launched the Manage Engine Endpoint
+                Central Demo Page, spotlighting robust security and privacy
+                features. Implemented tailored access controls and authorization
+                protocols, leading to a 40% decrease in vulnerabilities and
+                reinforcing trust in platform security.</ListGroup.item>
+              <ListGroup.item>Successfully enhanced operational eﬀiciency by 50%
+                via strategic Continuous Integration/Continuous Deployment
+                (CI/CD) automation pipeline implementation in GitHub,
+                accelerating feature delivery and bolstering system reliabil-
+                ity.</ListGroup.item>
+              <ListGroup.item>Elevated product stability and customer
+                satisfaction by directly resolving live session issues,
+                resulting in a 70% reduction in future bugs and faster
+                resolution times.</ListGroup.item>
+            </BsListGroup>
+          </acc.item>
+          <acc.item
+            @value="3"
+            @title="Zoho Corporation - Technical Internship (Jul 2020 – Sep 2020)"
+          >
+            <BsListGroup @flush={{true}} as |ListGroup|>
+              <ListGroup.item>Engineered e-commerce platform with Ember JS,
+                MongoDB, and Node JS, boosting performance by 20% and meeting
+                stringent security standards.</ListGroup.item>
+              <ListGroup.item>Boosted web app security by 25% through expert
+                application of cache API, local storage, session storage, and
+                service workers.</ListGroup.item>
+              <ListGroup.item>Innovated product enhancement for Manage Engine
+                Desktop Central by spearheading the adoption of a weekly
+                internal bug bounty program, resulting in an 80% reduction in
+                issues and fostering a security-focused culture.</ListGroup.item>
+            </BsListGroup>
+          </acc.item>
+        </BsAccordion>
+      </div>
+
+      {{! Education Section }}
+      <div class="card mb-4">
+        <div class="card-header">
+          <h4>Education</h4>
+        </div>
+        <div class="card-body">
+          <BsListGroup @flush={{true}} as |ListGroup|>
+            <ListGroup.item>
+              <div class="d-flex justify-content-between">
+                <h5>University of Central Florida</h5>
+                <small class="text-muted">Aug 2023 – Present</small>
+              </div>
+              <p>Master of Science (MS), Computer Science (Specialized
+                Cybersecurity track)</p>
+            </ListGroup.item>
+            <ListGroup.item>
+              <div class="d-flex justify-content-between">
+                <h5>National Engineering College</h5>
+                <small class="text-muted">Aug 2016 – Apr 2020</small>
+              </div>
+              <p>Bachelor’s in engineering (BE), Computer Science and
+                Engineering</p>
+            </ListGroup.item>
+          </BsListGroup>
+        </div>
+      </div>
+
+      {{! Skills Section }}
+      <div class="card mb-4">
+        <div class="card-header">
+          <h4>Skills</h4>
+        </div>
+        <div class="card-body custom-bullets">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Security</h5>
+              <ul>
+                <li>Cloud Security</li>
+                <li>Network Security</li>
+                <li>Application Security</li>
+                <li>Cryptography</li>
+                <li>Vulnerability Assessment</li>
+                <li>Identity Management</li>
+                <li>Security Incident Response</li>
+                <li>Malware Analysis</li>
+                <li>Information Security</li>
+                <li>Product Security</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h5>Programming Languages</h5>
+              <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>CppCms</li>
+                <li>PHP</li>
+                <li>Shell Scripting</li>
+                <li>Ember JS</li>
+                <li>Node JS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6">
+              <h5>Networking</h5>
+              <ul>
+                <li>TCP/IP</li>
+                <li>DNS</li>
+                <li>Routing</li>
+                <li>Switching</li>
+                <li>Firewalls</li>
+                <li>LAN/WAN</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h5>Security Tools</h5>
+              <ul>
+                <li>Wireshark</li>
+                <li>Nessus</li>
+                <li>Splunk</li>
+                <li>Burp Suite</li>
+                <li>Metasploit</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6">
+              <h5>Operating Systems</h5>
+              <ul>
+                <li>Linux</li>
+                <li>Windows</li>
+                <li>Android</li>
+                <li>Mac</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h5>Databases</h5>
+              <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {{! Personal Interests }}
+      <div class="card mb-4">
+        <div class="card-header">
+          <h4>Personal Interests</h4>
+        </div>
+        <div class="card-body">
+          Apart from my professional work, I am passionate about blogging on
+          cybersecurity and exploring the digital shadows. I also enjoy working
+          on personal projects, learning new technologies, and sharing my
+          knowledge through my blog.
+        </div>
+      </div>
+
+      {{! Call To Action }}
+      <div class="card mb-4">
+        <div class="card-header">
+          <h4>Call to Action</h4>
+        </div>
+        <div class="card-body">
+          Feel free to connect with me for potential opportunities,
+          collaborations, or simply to follow my blog. Let's embark on this
+          mystic voyage into the digital shadows together!
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
