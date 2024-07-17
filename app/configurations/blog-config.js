@@ -14,6 +14,13 @@ export let BLOG_ARTICLES = {
   transitionTo: 'blogs.blog',
   articlesList: [
     {
+      id: '6',
+      title: 'TryHackMe Walkthrough: LazyAdmin',
+      description:
+        'Learn how to exploit vulnerabilities and escalate privileges in the TryHackMe LazyAdmin room with this comprehensive walkthrough.',
+      filePath: '_tryhackme/lazy-admin.md',
+    },
+    {
       id: '5',
       title: 'Exploring the Jungle of Client-Side Risks: A Quick Guide',
       description:
