@@ -8,6 +8,12 @@ body {
     font-size: 1.2rem;
   }
 
+  .rover {
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+  }
+
   .card-text {
     &.center {
       text-align-last: center;
