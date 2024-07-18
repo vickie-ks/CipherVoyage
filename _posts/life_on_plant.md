@@ -1,6 +1,6 @@
 ### The Journey of Life on Our Planet!
 
-<img src="images/blogs/life-on-planet.png" alt="proxy-sec" class="rounded-4 img-fluid m-1 md-img">
+<img src="images/blogs/life-on-planet.png" alt="proxy-sec" class="md-img">
 <div id="copyUrl"></div>
 
 

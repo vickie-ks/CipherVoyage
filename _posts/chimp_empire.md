@@ -1,6 +1,6 @@
 ### Echoes of Our Ancestors ~ A Story of Connection
 
-<img src="images/blogs/chimp-empire.png" alt="proxy-sec" class="rounded-4 shadow-sm img-fluid m-1 md-img">
+<img src="images/blogs/chimp-empire.png" alt="proxy-sec" class="md-img">
 <div id="copyUrl"></div>
 
 Deep in Africa's lush jungles, there's a place called the Chimp Empire, where the lives of chimpanzees are as rich and joyful as any story you've heard. This magical world, shown in the Netflix documentary, lets us peek into the lives of these amazing animals, our closest cousins in the wild.
