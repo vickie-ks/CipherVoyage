@@ -4,7 +4,7 @@ export let ECHO_ARTICLES = {
   transitionTo: 'echoes.echo',
   articlesList: [
     {
-      id: '1',
+      id: 'a-journey-to-new-horizons',
       title: 'A Journey to New Horizons',
       description:
         'A young boy, balancing family and hidden duties, faces unseen threats. Can he protect his homeland and loved ones without revealing his secret life?',

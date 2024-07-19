@@ -3,7 +3,7 @@ import { getDatabase } from 'firebase/database';
 
 export function initialize() {
   const firebaseConfig = {
-    apiKey: 'AIzaSyB6e95iBPPTXNExzGGvHfgh_AgqB4EoGcI',
+    apiKey: 'APIKEY',
     authDomain: 'ciphervoyage.firebaseapp.com',
     databaseURL: 'https://ciphervoyage-default-rtdb.firebaseio.com',
     projectId: 'ciphervoyage',

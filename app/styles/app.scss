@@ -89,6 +89,7 @@ body {
 
   #main-content a:not(.text-white):not(.btn-outline-success) {
     @extend .link-success;
+    @extend .link-offset-1;
   }
 
   .accordion {

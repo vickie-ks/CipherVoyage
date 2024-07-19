@@ -8,7 +8,7 @@ export default function copyToClipboard(element) {
   document.body.removeChild(el);
 
   const originalText = element.textContent;
-  element.textContent = 'Copied!!';
+  element.textContent = 'URL Copied!!';
   setTimeout(() => {
     element.textContent = originalText;
   }, 2000);
