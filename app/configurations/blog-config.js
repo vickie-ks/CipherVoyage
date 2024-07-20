@@ -14,6 +14,13 @@ export let BLOG_ARTICLES = {
   transitionTo: 'blogs.blog',
   articlesList: [
     {
+      id: 'remcos-rat',
+      title: 'Remcos RAT: Exploiting the CrowdStrike Falcon Glitch',
+      description:
+        'Exploring how cybercriminals exploited the CrowdStrike Falcon glitch to distribute Remcos RAT and its prevention strategies.',
+      filePath: '_posts/remcos-rat.md',
+    },
+    {
       id: 'lazy-admin',
       title: 'TryHackMe Walkthrough: LazyAdmin',
       description:
