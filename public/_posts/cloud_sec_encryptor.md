@@ -31,9 +31,7 @@ Curious minds can delve deeper into this bastion of privacy by visiting my <a hr
 
 ##### In Closing: The Quiet Power of Knowledge
 
-As we navigate these turbulent digital skies, let us be guided by the old navigational adage, 
-
-<blockquote><em>&mdash; Knowledge is the star to every wandering bark.</em></blockquote>
+As we navigate these turbulent digital skies, let us be guided by the old navigational adage, ***&mdash; Knowledge is the star to every wandering bark.***
 
 By understanding the shadows cast by clouds, we equip ourselves to seek the light. Stay vigilant, encrypt passionately, and remember—the only shadows we should accept are those cast by our own hand in the dance of encryption.
 

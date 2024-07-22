@@ -17,6 +17,6 @@ Let's keep the story of the Chimp Empire alive. It teaches us about our past and
 
 In every chimp's smile and every playful chase, we find a piece of our shared story. 
 
-<blockquote><em>&mdash; Let's cherish and protect their world as they teach us about our own.</em></blockquote>
+***&mdash; Let's cherish and protect their world as they teach us about our own.***
 
 *Author: <a href="https://github.com/vickie-ks" target="_blank">vickie-ks</a>*
