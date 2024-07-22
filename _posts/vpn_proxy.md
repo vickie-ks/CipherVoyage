@@ -25,7 +25,7 @@ Choosing between a VPN and a proxy really boils down to your needs. Are you just
 
 Remember, whether you pick a VPN or a proxy, you’re stepping up your internet game either way. Just make sure to choose wisely based on what’s right for your digital lifestyle. 
 
-<blockquote><em>&mdash; Stay safe out there, and happy surfing!</em></blockquote>
+***&mdash; Stay safe out there, and happy surfing!***
 
 *Author: <a href="https://github.com/vickie-ks" target="_blank">vickie-ks</a>*
 
