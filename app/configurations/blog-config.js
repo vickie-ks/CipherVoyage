@@ -14,6 +14,13 @@ export let BLOG_ARTICLES = {
   transitionTo: 'blogs.blog',
   articlesList: [
     {
+      id: 'Jack-of-All-Trades',
+      title: 'TryHackMe Walkthrough: Jack-of-All-Trades',
+      description:
+        'See how to find vulnerabilities and get higher access in the TryHackMe Jack-of-All-Trades room with this simple guide.',
+      filePath: '_tryhackme/Jack-of-All-Trades.md',
+    },
+    {
       id: 'remcos-rat',
       title: 'Remcos RAT: Exploiting the CrowdStrike Falcon Glitch',
       description:
