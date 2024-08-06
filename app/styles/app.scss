@@ -1,5 +1,35 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
+:root {
+  --bs-dark-rgb: 14, 14, 26;
+  --bs-success-rgb: 0, 128, 19;
+  --bs-success: rgb(0, 128, 19);
+  .btn-outline-success {
+    --bs-btn-color: #008013;
+    --bs-btn-border-color: #008013;
+    --bs-btn-hover-bg: #008013;
+    --bs-btn-hover-border-color: #008013;
+    --bs-btn-active-bg: #00570d;
+    --bs-btn-active-border-color: #00570d;
+  } 
+  .btn-success {
+    --bs-btn-bg: #008013;
+    --bs-btn-border-color: #008013;
+    --bs-btn-hover-bg: #00670f;
+    --bs-btn-hover-border-color: #00670f;
+    --bs-btn-active-bg: #00570d;
+    --bs-btn-active-border-color: #00570d;
+  }
+  .btn-dark {
+    --bs-btn-bg: rgb(14, 14, 26);
+    --bs-btn-border-color: rgb(14, 14, 26);
+    --bs-btn-hover-bg: #212529;
+    --bs-btn-hover-border-color: #212529;
+    --bs-btn-active-bg: #212529;
+  }
+}
+
+
 html,
 body {
   font-family: 'Assistant', sans-serif;
