@@ -11,7 +11,7 @@
     --bs-btn-hover-border-color: #008013;
     --bs-btn-active-bg: #00570d;
     --bs-btn-active-border-color: #00570d;
-  } 
+  }
   .btn-success {
     --bs-btn-bg: #008013;
     --bs-btn-border-color: #008013;
@@ -32,7 +32,7 @@
 
 html,
 body {
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
 
   h6 {
     font-size: 1.2rem;
@@ -71,24 +71,44 @@ body {
     ul {
       list-style-type: none; // Remove default bullets
       padding-left: 0;
-  
+
       li {
         position: relative;
         padding-left: 1.5rem;
-  
+
         &::before {
           content: "";
           position: absolute;
           left: 0;
           top: 0.5rem;
-          width: 0.50rem;
-          height: 0.50rem;
+          width: 0.5rem;
+          height: 0.5rem;
           border: 1.5px solid var(--bs-success); // Hollow circle
           border-radius: 50%;
         }
       }
     }
-  }  
+  }
+
+  .link-success {
+    .left-arrow {
+      width: 60px;
+      height: 22px;
+      margin-bottom: 10px;
+      transform: rotate(180deg);
+      transition: 250ms all ease;
+      fill: currentColor;
+      path {
+        height: 100%;
+        transition: 250ms all ease;
+      }
+    }
+
+    &:hover .left-arrow path {
+      d: path("M0 9.35772H50.9956L44.2001 2.29941L46.4134 0L57 11L46.4134 22L44.2001 19.7006L50.9956 12.6423H0V9.35772Z");
+      d: "M0 9.35772H50.9956L44.2001 2.29941L46.4134 0L57 11L46.4134 22L44.2001 19.7006L50.9956 12.6423H0V9.35772Z";
+    }
+  }
 
   .avatar {
     height: 175px;

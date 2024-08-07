@@ -2,6 +2,13 @@
   {{#if this.model}}
     {{! template-lint-disable no-curly-component-invocation }}
     {{markdown-to-html markdown=this.model}}
+    <hr />
+    <LinkTo class="link-success d-flex align-items-center justify-content-center me-5" @route="quests">
+      <svg class="left-arrow">
+        <path d="M0.5 9.35772H20.9956L14.2001 2.29941L16.4134 0L27 11L16.4134 22L14.2001 19.7006L20.9956 12.6423H0.5V9.35772Z" transform="scale(0.5)"></path>
+      </svg>
+      <span class="ms-1">Back to Quests</span>
+    </LinkTo>
   {{else}}
     <Loading />
   {{/if}}
