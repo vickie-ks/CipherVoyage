@@ -1,38 +1,52 @@
 ### Exploring the Jungle of Client-Side Risks: A Quick Guide
 <div id="copyUrl"></div>
 
-Welcome to the digital wild, where the beasts of client-side risks lurk behind lines of code, waiting for the unwary coder or user to step wrong. Let's take a brisk walk through this jungle, highlighting the ten most common critters that could threaten your application's security.
+Hey everyone! Today, let's talk about something important for all of us who use the internet. You know how we all love using websites and apps? Well, there's a part of them called the client-side that can have some hidden dangers. Don't worry, though! We’re here to make it simple and easy to understand.
 
 ##### 1. Broken Client-side Access Control
-   Imagine leaving your house with the doors unlocked. That's what happens when access controls are mismanaged. Users might wander into areas they shouldn't, potentially causing chaos.
 
-##### 2. DOM-based XSS
-   It's like graffiti on your web walls, except this scribble can steal your secrets. Malicious scripts injected through the DOM can deface your website and compromise user data.
+Imagine you're at a friend's house, and suddenly, anyone can walk into any room without asking. That’s what happens when a website doesn’t control who can see what. We need to make sure only the right people can see certain parts.
+
+##### 2. DOM-based XSS (Cross-Site Scripting)
+
+This is like letting a stranger write in your notebook. If a website lets users put in bad code, it can cause trouble for everyone. We need to stop bad scripts from running on our pages.
 
 ##### 3. Sensitive Data Leakage
-   Ever drop your credit card in a crowded place? That’s the online equivalent of poor handling of sensitive data—errors, misconfigurations, or carelessness can lead to unexpected data exposure.
+
+Leaving your phone unlocked is risky, right? In the same way, websites shouldn’t show private info like passwords in the code where anyone can see it. Keeping data safe is a must.
 
 ##### 4. Vulnerable and Outdated Components
-   Using old libraries or frameworks is like driving a beat-up car on a racetrack. You’re just waiting for something to break at the worst possible moment.
+
+Using old tools is like driving an old car without brakes. Websites using outdated parts can have weak spots that hackers like to attack. It's always good to update and stay secure.
 
 ##### 5. Lack of Third-party Origin Control
-   Third-party scripts without restrictions are like unknown guests at a party; you never know what they’ll bring along. Ensuring strict source controls minimizes unwanted surprises.
+
+If you buy snacks from an unknown shop, you never know if they’re fresh. Using scripts from unknown places can bring risks. Always check where your scripts are coming from.
 
 ##### 6. JavaScript Drift
-   As your application grows, your JavaScript might drift from its secure baseline, accumulating potentially risky baggage along the way.
+
+Sometimes, our scripts wander away from what they should do, like daydreaming in class. We need to keep an eye on them and make sure they do their job right.
 
 ##### 7. Sensitive Data Stored Client-Side
-   Keeping sensitive information client-side? That's like storing your valuables on the front lawn. It’s accessible and risky.
+
+Keeping secret things like passwords in your front pocket is not safe. Similarly, storing sensitive data on the client-side is risky. It's safer to keep it on the server.
 
 ##### 8. Client-side Security Logging and Monitoring Failures
-   Not keeping an eye on what’s happening in your app is like ignoring smoke in a forest. Without proper monitoring, you can’t manage what you don’t measure.
+
+Not watching over what's happening on your site is like leaving your house unlocked. Proper monitoring helps catch problems early, so always keep an eye out.
 
 ##### 9. Not Using Standard Browser Security Controls
-   Browsers have built-in shields like CSP and XSS protection. Not using these is like ignoring a free security upgrade.
+
+Ignoring safety features on a website is like driving without a seatbelt. Browser controls like CSP help keep sites safe, so it’s smart to use them.
 
 ##### 10. Including Proprietary Information on the Client-Side
-   Leaving your secret sauce recipe at the table of a restaurant? Keep proprietary code server-side to avoid giving hackers a peek.
 
-As we trim the branches and clear the undergrowth in this ever-evolving landscape, staying informed and prepared is key. For those ready to take their security toolkit to the next level, consider diving into my [OWASP-WebScanner](https://github.com/vickie-ks/OWASP-WebScanner) project. It's designed to help you identify and mitigate these top client-side vulnerabilities effectively.
+Sharing business secrets on the client-side is like giving away your special recipe. Keep important details on the server to keep them safe.
+
+Exploring these risks might seem tricky, but understanding them can help keep our online world safe and fun. 
+
+***&mdash; Better to be safe than sorry!***
+
+Feel free to dive deeper and learn more from the [OWASP website](https://owasp.org/www-project-top-10-client-side-security-risks/).
 
 *Author: <a href="https://github.com/vickie-ks" target="_blank">vickie-ks</a>*
