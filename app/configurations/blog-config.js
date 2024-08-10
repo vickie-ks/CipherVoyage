@@ -78,6 +78,13 @@ export let QUEST_ARTICLES = {
   transitionTo: 'quests.quest',
   articlesList: [
     {
+      id: 'atmoic-habits',
+      title: 'Small Steps to Big Changes: Discovering Atomic Habits',
+      description:
+        "Explore how tiny habits lead to significant life changes, based on insights from James Clear's Atomic Habits.",
+      filePath: '_posts/atomic_habits.md',
+    },
+    {
       id: 'neuralink',
       title: 'From Fiction to Reality: The Astonishing Connection',
       description:
