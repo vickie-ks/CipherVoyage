@@ -132,9 +132,17 @@ body {
     font-size: 15px;
   }
 
+  .fa-phone {
+    transform: rotate(90deg);
+  }
+
   .card,
   .rounded {
     animation: fadeInUp 0.5s ease-in-out both;
+  }
+
+  .md-content {
+    animation: textBlurToFocus 0.5s ease-in-out both;
   }
 
   #main-content a:not(.text-white):not(.btn-outline-success) {
@@ -190,6 +198,19 @@ body {
   }
   100% {
     opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes textBlurToFocus {
+  0% {
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
     transform: translateY(0);
   }
 }
