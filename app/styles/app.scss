@@ -49,15 +49,6 @@ body {
       text-align-last: center;
       text-align: -webkit-center;
     }
-
-    &.height {
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 4;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      min-height: 30px;
-    }
   }
 
   .md-img {

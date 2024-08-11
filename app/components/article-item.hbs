@@ -4,12 +4,16 @@
       <h5 class="card-title">
         {{@article.title}}
       </h5>
-      <p class="card-text height">
-        {{@article.description}}
-        <BsPopover @triggerEvents="hover" >
-          {{@article.description}}
-        </BsPopover>
-      </p>
+      {{#let (ellipsify @article.description 18) as |textInfo|}}
+        <p class="card-text">
+          {{textInfo.truncatedText}}
+          {{#if textInfo.isTruncated}}
+            <BsPopover @triggerEvents="hover">
+              {{@article.description}}
+            </BsPopover>
+          {{/if}}
+        </p>
+      {{/let}}
     </div>
     <div class="card-footer">
       {{#if @article.filePath}}
