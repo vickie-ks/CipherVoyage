@@ -157,7 +157,8 @@ body {
       @extend .border-success;
       &:not(.collapsed) {
         @extend .text-success;
-        @extend .bg-success-subtle;
+        @extend .bg-white;
+        @extend .border-bottom;
       }
     }
   }
